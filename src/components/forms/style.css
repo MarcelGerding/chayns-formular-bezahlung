@@ -1,0 +1,72 @@
+.hidden{
+    display: none;
+}
+.save-button-container{
+    text-align: center;
+}
+.paypal-image {
+    background: url(https://www.paypalobjects.com/webstatic/icon/pp258.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    float: right;
+}
+.sofort-image {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sofort%C3%BCberweisung_Logo.svg/2000px-Sofort%C3%BCberweisung_Logo.svg.png) no-repeat;
+    width: 150px;
+    height: 50px;
+    background-size: contain;
+    float: right;
+}
+.choose-month, .choose-year {
+    display: inline-block;
+}
+.save-creditcard-button {
+    margin-right: 10px;
+}
+.credit-card-images-wrapper {
+    display: flex;
+    float: right;
+    padding-bottom: 5px;
+    position: relative;
+}
+.credit-card-amex, .credit-card-mc, .credit-card-visa {
+    margin-right: 3px;
+}
+.credit-card-images {
+    width: 35px;
+    opacity: .4;
+}
+.credit-number-visa {
+    background: url(http://pngimg.com/uploads/visa/visa_PNG30.png) no-repeat;
+    width: 29px;
+    height: 25px;
+    background-size: cover;
+}
+.credit-number-master-card {
+    background: url(http://pngimg.com/uploads/mastercard/mastercard_PNG14.png) no-repeat;
+    width: 29px;
+    height: 25px;
+    background-size: cover;
+}
+.credit-number-amex {
+    background: url(http://d311ua4en7j8ch.cloudfront.net/uploads/default/companies/logos/american-express.png) no-repeat;
+    width: 29px;
+    height: 25px;
+    background-size: cover;
+}
+.choose-month {
+    margin-right: 10px;
+}
+.creditcard-choosebutton-wrapper {
+    display: table-cell;
+    padding: 0;
+    text-align: right;
+    float: right;
+}
+.creditcard-date-wrapper {
+    display: table;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
